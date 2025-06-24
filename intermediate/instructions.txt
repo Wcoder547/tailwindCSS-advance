@@ -1,0 +1,11 @@
+https://v3.tailwindcss.com/docs/container
+
+Documentation: Tailwind CSS Container
+The `container` utility in Tailwind CSS is used to create a responsive fixed-width container that adapts to different screen sizes. It provides a way to center content and apply consistent padding across various breakpoints.      
+
+The container can be customized using the `container` class, and you can also adjust its maximum width at different breakpoints by using the `max-w-{size}` utilities.
+You can also use the `container` utility in conjunction with other utilities to create a responsive layout. For example, you can combine it with flexbox or grid utilities to achieve complex layouts while maintaining a consistent container width.
+
+
+Difference between Bgcontainer and bg cover? 
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind setup with CLI</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-white h-screen">
+    <ul
+      class="bg-black text-white flex [&>*]:flex gap-12 justify-center mb-5 p-5 text-center"
+    >
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li class="text-amber-500"><a href="#About">About</a></li>
+      <li class="border border-b-violet-200 border-red-400">
+        <a href="#contactus">Contact-us</a>
+      </li>
+      <li class="text-right"><a href="#Logout">Logout</a></li>
+    </ul>
+
+    <hr />
+
+    <span class="bg-red-500 text-white mt-20"
+      >span with margin and padding</span
+    >
+    <h1 class="bg-blue-50">Heading</h1>
+    <h1 class="bg-blue-100">Heading</h1>
+    <h1 class="bg-blue-200">Heading</h1>
+    <h1 class="bg-blue-300">Heading</h1>
+    <h1 class="bg-blue-400">Heading</h1>
+    <h1 class="bg-blue-500">Heading</h1>
+    <h1 class="bg-blue-600">Heading</h1>
+    <h1 class="bg-blue-700">Heading</h1>
+    <h1 class="bg-blue-800">Heading</h1>
+    <h1 class="bg-blue-900">Heading</h1>
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-cyan-400 text-5xl text-center">
+      width,Min width ,Max -width
+    </h1>
+
+    <hr class="h-3 mt-5" />
+
+    <h1 class="bg-pink-300 w-200">Hello step by step</h1>
+    <div class="bg-pink-400 max-w-50">Hello step by step</div>
+    <div class="bg-pink-600 max-w-200">Hello step by step</div>
+    <div class="bg-pink-500 min-w-100 w-4">Hello step by step</div>
+    <div class="bg-pink-700 w-1/2">Hello step by step</div>
+    <div class="bg-pink-800 w-3/4">Hello step by step</div>
+    <div class="bg-pink-900 w-2xl">Hello step by step</div>
+    <div class="bg-yellow-400 w-[100px]">Hello</div>
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-fuchsia-400 text-5xl text-center">
+      Height,Min-height ,Max-height
+    </h1>
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-green-300 h-100">Hello step by step</h1>
+    <div class="bg-green-400 h-32">Hello step by step</div>
+    <div class="bg-green-700 h-1/5">Hello step by step</div>
+    <div class="bg-green-800 h-1/5">Hello step by step</div>
+    <div class="bg-green-900 h-1/5">Hello step by step</div>
+    <div class="bg-green-950 h-1/5">Hello step by step</div>
+    <div class="bg-green-100 h-1/5">Hello step by step</div>
+    <!-- <div class="h-dvh bg-amber-500">Hello step by step</div> -->
+    <!-- <div class="bg-green-600 h-full">Hello step by step</div> -->
+
+    <div class="bg-pink-400 h-60 max-h-52">Hello step by step</div>
+    <div class="bg-pink-500 h-60 min-h-52">Hello step by step</div>
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-emerald-400 text-5xl text-center">
+      POSITIONS,TOP,LEFT,RIGHT,BOTTOM
+    </h1>
+
+    <hr class="h-3 mt-5" />
+
+    <!-- <div class="bg-red-200 size-48 absolute top-0 bottom-0"></div>
+    <div class="bg-green-200 size-48 absolute right-0 bottom-0"></div>
+    <div class="bg-yellow-200 size-48 absolute left-0 bottom-0"></div>
+    <div class="bg-cyan-200 size-48 absolute top-0 right-0"></div> -->
+
+    <div class="bg-red-200 size-96 relative">
+      <div class="bg-pink-500 w-fit absolute bottom-0 right-0">
+        Hello step by step
+      </div>
+      <div class="bg-black text-white w-fit absolute bottom-0 left-0">
+        Hello step by step
+      </div>
+      <div class="bg-amber-950 text-white w-fit absolute top-0 left-0">
+        Hello step by step
+      </div>
+      <div class="bg-purple-600 text-white w-fit absolute top-0 right-0">
+        Hello step by step
+      </div>
+      <div class="bg-green-600 text-white w-fit top-52 left-24 absolute">
+        Hello step by step
+      </div>
+      <!-- <div class="fixed bg-red-900 top-52 left-24 text-white">
+        this is fixed
+      </div> -->
+    </div>
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-red-400 text-5xl text-center">SIZE</h1>
+    <hr class="h-3 mt-5" />
+
+    <div class="w-50 h-50 bg-amber-400"></div>
+    <hr />
+    <div class="size-50 bg-amber-400"></div>
+    <!-- <div class="size-fit bg-amber-400">H</div> -->
+    <!-- <div class="size-full bg-amber-400"></div> -->
+    <div class="size-[130px] bg-amber-400"></div>
+  </body>
+</html>

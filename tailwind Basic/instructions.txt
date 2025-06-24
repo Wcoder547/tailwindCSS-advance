@@ -1,0 +1,13 @@
+npm install tailwindcss @tailwindcss/cli
+
+@import "tailwindcss"; in style.css
+
+npx @tailwindcss/cli -i ./style.css -o ./output.css --watch
+
+
+use h-screen in body class 
+if you want to use h-full any-where
+
+
+we can't use min and max-size
+only max-h and min-h can be used..

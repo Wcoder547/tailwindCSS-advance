@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Advance</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-white h-screen">
+    <ul
+      class="bg-black text-white flex [&>*]:flex gap-12 justify-center mb-5 p-5 text-center"
+    >
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li class="text-amber-500"><a href="#About">About</a></li>
+      <li>
+        <a href="#contactus" class="active">Contact-us</a>
+      </li>
+      <li class="text-right"><a href="#Logout">Logout</a></li>
+    </ul>
+
+    <!-- <hr class="h-3 mt-5" />
+    <h1 class="bg-cyan-400 text-5xl text-center">Container Classes?</h1>
+    <hr class="h-3 mt-5" /> -->
+    <!-- <p class="text-center bg-amber-300">
+      Space both side | left and right side white-spaces
+    </p> -->
+    <!-- <div
+      class="text-3xl bg-cyan-500 container mx-auto px-4 md:container md:mx-auto"
+    >
+      Container class
+    </div>
+    <div class="text-3xl bg-cyan-500 container mx-auto px-4">
+      Container class
+    </div>
+    <div class="text-3xl bg-yellow-400 container mx-auto px-4">Main class</div>
+    <div class="text-6xl bg-yellow-500 container mx-auto px-4">
+      Container class
+    </div>
+    <div class="text-6xl bg-yellow-600 container mx-auto px-4">
+      Another class
+    </div>
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-gray-600 text-5xl text-center text-white">
+      Background Classes?
+    </h1>
+    <hr class="h-3 mt-5" />
+
+    <div
+      class="bg-red-500 h-9/12 bg-[url(waseem.jpeg)] bg-no-repeat bg-center bg-cover"
+    ></div>
+    <div class="bg-gradient-to-t to-blue-500 from-red-500 size-96"></div>
+    <hr />
+    <div class="bg-gradient-to-b to-green-500 from-red-500 size-96"></div>
+    <hr />
+    <div class="bg-gradient-to-tr to-yellow-500 from-blue-500 size-96"></div>
+    <hr />
+    <div class="size-96 mt-32 shadow-orange-400 shadow-2xl"></div>
+    <hr />
+    <div class="size-96 mt-32 shadow-orange-400 shadow-inner mb-42"></div>
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-indigo-500 text-5xl text-center">Filter Classes?</h1>
+    <hr class="h-3 mt-5" />
+
+    <h1 class="text-3xl bg-fuchsia-500 text-center">Blur Images</h1>
+    <img class="h-96 blur" src="waseem.jpeg" alt="" />
+    <img class="h-96 blur-sm" src="waseem.jpeg" alt="" />
+    <img class="h-96 blur-md" src="waseem.jpeg" alt="" />
+    <img class="h-96 blur-3xl" src="waseem.jpeg" alt="" />
+    <h1 class="text-3xl bg-amber-300 text-center">Brightness</h1>
+    <img class="h-96" src="waseem.jpeg" alt="" />
+    <img class="h-96 brightness-50" src="waseem.jpeg" alt="" />
+    <img class="h-96 brightness-100" src="waseem.jpeg" alt="" />
+    <img class="h-96 rightness-150" src="waseem.jpeg" alt="" />
+    <img class="h-96 rightness-200" src="waseem.jpeg" alt="" />
+    <h1 class="text-3xl bg-amber-300 text-center">Contrast</h1>
+    <img class="h-96" src="waseem.jpeg" alt="" />
+    <img class="h-96 contrast-50" src="waseem.jpeg" alt="" />
+    <img class="h-96 contrast-100" src="waseem.jpeg" alt="" />
+    <img class="h-96 contrast-150" src="waseem.jpeg" alt="" />
+    <img class="h-96 contrast-200" src="waseem.jpeg" alt="" />
+    <h1 class="text-3xl bg-amber-300 text-center">Invert</h1>
+    <img class="h-96 invert" src="waseem.jpeg" alt="" />
+
+    <h1 class="text-3xl bg-amber-300 text-center">HUE</h1>
+    <img class="h-96" src="waseem.jpeg" alt="" />
+    <img class="h-96 hue-rotate-15" src="waseem.jpeg" alt="" />
+    <img class="h-96 hue-rotate-30" src="waseem.jpeg" alt="" />
+    <img class="h-96 hue-rotate-60" src="waseem.jpeg" alt="" />
+    <img class="h-96 hue-rotate-90" src="waseem.jpeg" alt="" /> -->
+
+    <!-- <hr class="h-3 mt-5" />
+    <h1 class="bg-green-500 text-5xl text-center">Interactivity Classes?</h1>
+    <hr class="h-3 mt-5" />
+
+    <button class="bg-blue-500 rounded-md p-2 m-4 text-white">Login</button>
+    <button
+      class="bg-blue-500 rounded-md p-2 m-4 text-white hover:bg-blue-400 focus:bg-yellow-400 active:bg-red-500"
+    >
+      Login
+    </button>
+    <h1>group hover</h1>
+    <a class="hover:text-blue-500"
+      ><h1>Heading click</h1>
+      <p>para click</p>
+    </a>
+    <a class="group">
+      <h1 class="hover:text-blue-600 group-hover:bg-black">Heading click</h1>
+      <p class="group-hover:bg-amber-200">para click</p>
+    </a> -->
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-orange-500 text-5xl text-center">Column Classes?</h1>
+    <hr class="h-3 mt-5" />
+
+    <!-- <div class="columns-3">
+      <h1 class="bg-red-500 text-center">Heading1</h1>
+      <h1 class="bg-green-500 text-center">Heading 2</h1>
+      <h1 class="bg-blue-500 text-center">Heading 3</h1>
+      <h1 class="bg-yellow-500 text-center">Heading 4</h1>
+      <h1 class="bg-pink-500 text-center">Heading 5</h1>
+      <h1 class="bg-purple-500 text-center">Heading 6</h1>
+    </div> -->
+    <!-- <div class="columns-4 lg:columns-4 md:columns-3">
+      <img class="h-96" src="waseem.jpeg" alt="" />
+      <img class="h-96" src="waseem.jpeg" alt="" />
+      <img class="h-96" src="waseem.jpeg" alt="" />
+      <img class="h-96" src="waseem.jpeg" alt="" />
+    </div> -->
+    <!-- <div class="columns-3">
+      <img class="h-96" src="waseem.jpeg" alt="" />
+      <img class="h-96" src="waseem.jpeg" alt="" />
+      <img class="h-96" src="waseem.jpeg" alt="" />
+      <img class="h-96" src="waseem.jpeg" alt="" />
+      <img class="h-96" src="waseem.jpeg" alt="" />
+    </div> -->
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-cyan-500 text-5xl text-center">
+      Media Query and Break-Points
+    </h1>
+    <hr class="h-3 mt-5" />
+
+    <!-- <div
+      class="bg-red-500 h-full lg:bg-green-400 md:bg-blue-500 sm:bg-amber-500 xl:bg-gray-200"
+    ></div> -->
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-amber-500 text-5xl text-center">Flex Classes?</h1>
+    <hr class="h-3 mt-5" />
+
+    <!-- <div
+      class="bg-gray-200 size-full flex flex-col justify-center items-center"
+    >
+      <div class="bg-red-300 size-20"></div>
+      <div class="bg-green-400 size-30"></div>
+      <div class="bg-blue-500 size-40"></div>
+      <div class="bg-yellow-600 size-60"></div>
+    </div> -->
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-gray-500 text-5xl text-center">Grid Classes?</h1>
+    <hr class="h-3 mt-5" />
+    <!-- <div class="grid grid-cols-3 md:grid-cols-4====">
+      <div
+        class="bg-red-300 p-10 border border-red-700 text-center text-3xl col-span-2"
+      >
+        1
+      </div>
+      <div class="bg-red-300 p-10 border border-red-700 text-center text-3xl">
+        2
+      </div>
+      <div class="bg-red-300 p-10 border border-red-700 text-center text-3xl">
+        3
+      </div>
+      <div
+        class="bg-red-300 p-10 border border-red-700 text-center text-3xl col-span-4"
+      >
+        4
+      </div>
+      <div class="bg-red-300 p-10 border border-red-700 text-center text-3xl">
+        5
+      </div>
+      <div class="bg-red-300 p-10 border border-red-700 text-center text-3xl">
+        6
+      </div>
+      <div class="bg-red-300 p-10 border border-red-700 text-center text-3xl">
+        7
+      </div>
+      <div class="bg-red-300 p-10 border border-red-700 text-center text-3xl">
+        8
+      </div>
+      <div class="bg-red-300 p-10 border border-red-700 text-center text-3xl">
+        9
+      </div>
+    </div> -->
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-purple-500 text-5xl text-center">Transition Vs Transform</h1>
+    <hr class="h-3 mt-5" />
+
+    <!-- <button class="bg-blue-300 m-10 text-white p-2 rounded hover:bg-blue-900">
+      Login
+    </button>
+    <button
+      class="bg-black m-10 text-white p-2 rounded hover:bg-blue-900 transition duration-1000"
+    >
+      Signup
+    </button>
+    <button
+      class="bg-red-300 m-10 text-white p-2 rounded hover:opacity-5 transition duration-1000"
+    >
+      Logout
+    </button>
+    <button
+      class="bg-pink-300 m-10 text-white p-2 rounded hover:rotate-45 transition-transform duration-1000"
+    >
+      Forget
+    </button>
+    <button
+      class="bg-purple-300 m-10 text-white p-2 rounded hover:scale-75 transition-transform duration-1000"
+    >
+      Reset
+    </button> -->
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-black text-5xl text-center text-white">Animations</h1>
+    <hr class="h-3 mt-5" />
+
+    <!-- <div
+      class="size-10 bg-red-600 mt-10 p-10 rounded-full animate-bounce"
+    ></div>
+    <div class="size-10 bg-blue-600 mt-8 w-32 h-5 animate-spin"></div>
+    <div class="size-10 bg-red-500 mt-8 p-10 rounded-full animate-pulse"></div>
+    
+    -->
+
+    <hr class="h-3 mt-5" />
+    <h1 class="bg-black text-5xl text-center text-white">Animations</h1>
+    <hr class="h-3 mt-5" />
+  </body>
+</html>
