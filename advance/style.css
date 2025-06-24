@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --padding-10: 100px;
+  --padding-1: 50px;
+  --padding-c-50: 500px;
+  --margin-20: 200px;
+  --margin-1: 100px;
+  --margin-c-50: 500px;
+  --space-10: 100px;
+  --space-1: 50px;
+  --space-c-50: 500px;
+  --height-10: 100px;
+  --height-1: 50px;
+  --height-c-50: 500px;
+  --width-10: 100px;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 p-2 rounded ml-10 hover:bg-blue-700;
+  }
+}
